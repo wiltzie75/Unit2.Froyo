@@ -13,9 +13,9 @@ tableListing = () => {
     for (let i = 0; i < flavorsArray.length; i++) {
         const flavVal = flavorsArray[i];
         if (flavors[flavVal]){
-        flavors[flavVal] += 1;
+            flavors[flavVal] += 1;
         } else {
-        flavors[flavVal] = 1;
+            flavors[flavVal] = 1;
         }
     }
     console.table(flavors);
