@@ -1,5 +1,5 @@
 // Function prompting a user enter the flavors of froyo everyone ate and then tallying up the total for each.
-tableListing = () => {
+const tableListing = () => {
     // User prompted to enter flavors
     const vistor = prompt(
         "Please enter a list of comma-separated froyo flavors."
